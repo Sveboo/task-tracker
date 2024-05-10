@@ -1,0 +1,56 @@
+.task-tracker {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .todo {
+    background-color: #f2f2f2;
+  }
+  
+  .inProgress {
+    background-color: #d3e0ea;
+  }
+  
+  .done {
+    background-color: #d9ead3;
+  }
+  
+  button {
+    background-color: white;
+    color: #333;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  /* App.css */
+  .text-input {
+    background-color: white;
+    color: #333;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
